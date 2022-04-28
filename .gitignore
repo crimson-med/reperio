@@ -1,0 +1,11 @@
+node_modules
+
+# TernJS port file
+.tern-port
+.DS_Store
+
+# Build
+lib/*
+
+# Test
+images
