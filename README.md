@@ -13,6 +13,18 @@ yarn add reperio
 
 ---
 
+## Benchmarking
+
+Benchmarching is the time it takes to do the following actions:
+
+| **Action**                          | **Time (ms)** |
+|-------------------------------------|---------------|
+| new Parser(20lines)                 | 0.49 ms       |
+| new Parser(20lines).extractUrls()   | 0.49 ms       |
+| new Parser(20000lines)              | 5.61 ms       |
+| new Parser(2000lines).extractUrls() | 6.11 ns       |
+
+---
 ## Usage
 
 ### Creating a `Parser`
