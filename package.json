@@ -1,6 +1,6 @@
 {
   "name": "reperio",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fast HTML scrapper and reader",
   "author": "Burlet Mederic <mederic.burlet@gmail.com>",
   "repository": "https://github.com/crimson-med/reperio.git",
